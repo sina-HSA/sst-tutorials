@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="0.22842860221862793" name="SST TESTING FRAMEWORKS">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_Serialization" skipped="0" tests="1" time="0.22842860221862793">
+		<testcase name="test_Serialization" time="0.228429" timestamp="2023_0118_20:03:43.056334 utc" classname="testcase_StatisticComponent"/>
+	</testsuite>
+</testsuites>

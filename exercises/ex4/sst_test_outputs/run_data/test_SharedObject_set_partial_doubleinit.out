@@ -1,0 +1,17 @@
+['--param=object_type:set', '--param=num_entities:12', '--param=full_initialization:false', '--param=double_initialize:true']
+{'object_type': 'set', 'num_entities': '12', 'full_initialization': 'false', 'double_initialize': 'true'}
+FATAL:  SST Core: ERROR: called initialize() of SharedSet test_shared_set more than once
+WARNING: Building component "obj0" with no links assigned.
+SST Fatal Backtrace Information:
+    0 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(_ZNK3SST6Output5fatalEjPKcS2_iS2_z+0x4ae) [0x560db674843e]
+    1 : /home/sina/Desktop/SST-core/sstcore-12.1.0/lib/sstcore/libcoreTestElement.so(+0xe4ab2) [0x7fe9da814ab2]
+    2 : /home/sina/Desktop/SST-core/sstcore-12.1.0/lib/sstcore/libcoreTestElement.so(_ZN3SST30CoreTestSharedObjectsComponent30coreTestSharedObjectsComponentC2EmRNS_6ParamsE+0xd31) [0x7fe9da8161b1]
+    3 : /home/sina/Desktop/SST-core/sstcore-12.1.0/lib/sstcore/libcoreTestElement.so(_ZN3SST3ELI14DerivedBuilderINS_30CoreTestSharedObjectsComponent30coreTestSharedObjectsComponentENS_9ComponentEJmRNS_6ParamsEEE6createEmS6_+0x2a) [0x7fe9da81f8ca]
+    4 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(_ZN3SST7Factory15CreateComponentEmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS_6ParamsE+0x403) [0x560db6733bb3]
+    5 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(_ZN3SST15Simulation_impl13performWireUpERNS_11ConfigGraphERKNS_8RankInfoEm+0x8e) [0x560db6773c7e]
+    6 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(+0xea62e) [0x560db66c862e]
+    7 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(main+0x18c3) [0x560db66afde3]
+    8 : /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7fe9e182ed90]
+    9 : /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7fe9e182ee40]
+   10 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(_start+0x25) [0x560db66c5da5]
+[sina-VirtualBox:225549] [[33774,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file util/show_help.c at line 501

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="12" time="2.2985846996307373" name="SST TESTING FRAMEWORKS">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_SubComponent" skipped="0" tests="12" time="2.2985846996307373">
+		<testcase name="test_SubComponent_sc_2a" time="0.173860" timestamp="2023_0118_20:03:48.363820 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_2u" time="0.184581" timestamp="2023_0118_20:03:48.537828 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_2u2a" time="0.233566" timestamp="2023_0118_20:03:48.722551 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_2u2u" time="0.201333" timestamp="2023_0118_20:03:48.956197 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_2ua" time="0.193146" timestamp="2023_0118_20:03:49.157654 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_2uu" time="0.157132" timestamp="2023_0118_20:03:49.350979 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_a" time="0.143808" timestamp="2023_0118_20:03:49.508215 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_u" time="0.142152" timestamp="2023_0118_20:03:49.652152 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_u2a" time="0.187586" timestamp="2023_0118_20:03:49.794377 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_u2u" time="0.245364" timestamp="2023_0118_20:03:49.982040 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_ua" time="0.187910" timestamp="2023_0118_20:03:50.227493 utc" classname="testcase_SubComponent"/>
+		<testcase name="test_SubComponent_sc_uu" time="0.248147" timestamp="2023_0118_20:03:50.415787 utc" classname="testcase_SubComponent"/>
+	</testsuite>
+</testsuites>

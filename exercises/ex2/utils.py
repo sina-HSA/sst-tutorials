@@ -33,7 +33,7 @@ class Config:
 
         self.app = cp.get('CPU', 'application')
         self.coreConfigAppParams = dict(cp.items(self.app))
-        if self.app == 'miranda.STREAMBenchGenerator':
+        if self.app == 'miranda.RandomGenerator':
             self.coreConfig = self._mirandaCoreConfig
             self.coreGenConfig = self._streamGenConfig
         else:

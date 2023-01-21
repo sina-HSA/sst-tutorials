@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="18.7762713432312" name="SST TESTING FRAMEWORKS">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_config_input_output" skipped="0" tests="7" time="18.7762713432312">
+		<testcase name="test_json_io" time="0.608313" timestamp="2023_0118_20:03:50.909885 utc" classname="testcase_Config_input_output"/>
+		<testcase name="test_json_io_comp" time="8.002563" timestamp="2023_0118_20:03:51.518316 utc" classname="testcase_Config_input_output"/>
+		<testcase name="test_json_io_parallel" time="0.651902" timestamp="2023_0118_20:03:59.520975 utc" classname="testcase_Config_input_output"/>
+		<testcase name="test_python_io" time="0.640321" timestamp="2023_0118_20:04:00.172956 utc" classname="testcase_Config_input_output"/>
+		<testcase name="test_python_io_comp" time="7.980983" timestamp="2023_0118_20:04:00.813397 utc" classname="testcase_Config_input_output"/>
+		<testcase name="test_python_io_parallel" time="0.585735" timestamp="2023_0118_20:04:08.794496 utc" classname="testcase_Config_input_output"/>
+		<testcase name="test_python_single_parallel_load" time="0.306454" timestamp="2023_0118_20:04:09.380304 utc" classname="testcase_Config_input_output"/>
+	</testsuite>
+</testsuites>

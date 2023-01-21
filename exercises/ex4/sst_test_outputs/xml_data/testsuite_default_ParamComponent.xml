@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="0.5895626544952393" name="SST TESTING FRAMEWORKS">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_ParamComponent" skipped="0" tests="1" time="0.5895626544952393">
+		<testcase name="test_ParamComponent" time="0.589563" timestamp="2023_0118_20:03:38.224182 utc" classname="testcase_ParamComponent"/>
+	</testsuite>
+</testsuites>

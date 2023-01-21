@@ -1,0 +1,26 @@
+['--param=object_type:array', '--param=num_entities:12', '--param=full_initialization:false', '--param=late_write:true']
+{'object_type': 'array', 'num_entities': '12', 'full_initialization': 'false', 'late_write': 'true'}
+FATAL:  SST Core: ERROR: write to SharedArray test_shared_array after publish() was called
+WARNING: Building component "obj0" with no links assigned.
+WARNING: Building component "obj1" with no links assigned.
+WARNING: Building component "obj2" with no links assigned.
+WARNING: Building component "obj3" with no links assigned.
+WARNING: Building component "obj4" with no links assigned.
+WARNING: Building component "obj5" with no links assigned.
+WARNING: Building component "obj6" with no links assigned.
+WARNING: Building component "obj7" with no links assigned.
+WARNING: Building component "obj8" with no links assigned.
+WARNING: Building component "obj9" with no links assigned.
+WARNING: Building component "obj10" with no links assigned.
+WARNING: Building component "obj11" with no links assigned.
+SST Fatal Backtrace Information:
+    0 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(_ZNK3SST6Output5fatalEjPKcS2_iS2_z+0x4ae) [0x55ffb5c3c43e]
+    1 : /home/sina/Desktop/SST-core/sstcore-12.1.0/lib/sstcore/libcoreTestElement.so(_ZN3SST6Shared11SharedArrayIiE5writeEiRKi+0x13a) [0x7f7924603fca]
+    2 : /home/sina/Desktop/SST-core/sstcore-12.1.0/lib/sstcore/libcoreTestElement.so(_ZN3SST30CoreTestSharedObjectsComponent30coreTestSharedObjectsComponent5setupEv+0x25b) [0x7f79245ff20b]
+    3 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(_ZN3SST15Simulation_impl5setupEv+0x5e) [0x55ffb5c6571e]
+    4 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(+0xea402) [0x55ffb5bbc402]
+    5 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(main+0x18c3) [0x55ffb5ba3de3]
+    6 : /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7f792760bd90]
+    7 : /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7f792760be40]
+    8 : /home/sina/Desktop/SST-core/sstcore-12.1.0/bin/sst(_start+0x25) [0x55ffb5bb9da5]
+[sina-VirtualBox:225349] [[33446,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file util/show_help.c at line 501
